@@ -46,12 +46,29 @@ We could use tab to auto file after type javac - cp and java -cp.
 
 ```
     $ javac -cp<tab> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-    $ java -cp<tab> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.     runner.JUnitCore TestListExamples
+    $ java -cp<tab> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
 
 ## 7. Edit the code file to fix the failing test
-<img src = "6.png" width = "500"> 
-<img src = "7.png" width = "500"> 
+<img src = "11.jpeg" width = "500"> 
+<img src = "12.jpeg" width = "500"> 
+
+ Using vim to open the file
+ ```
+    vim file name
+
+ ```
+ Then simply using down arrow on key borad, find the bug and type the correct;
+ After that, type esc, and then type wq to save and quit.
+
+ ```
+    :wq
+ ``` 
+
+Below the picture are from VS code
+ <img src = "7.png" width = "500"> 
+ <img src = "6.png" width = "500"> 
+
  We see that there are two bug in our ListExamples.java
 
  ```
@@ -69,7 +86,7 @@ We could use tab to auto file after type javac - cp and java -cp.
 
 ```
     $ javac -cp<tab> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-    $ java -cp<tab> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.     runner.JUnitCore TestListExamples
+    $ java -cp<tab> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
 
 ## 9. Commit and push the resulting change to your Github account
